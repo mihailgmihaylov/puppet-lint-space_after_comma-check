@@ -3,7 +3,7 @@ PuppetLint.new_check(:space_after_comma) do
     tokens.select { |r|
       Set[:COMMA].include? r.type
     }.each do |token|
-      if token.next_token.type != :WHITESPACE and token.next_token.type != :NEWLINE
+      if token.next_token.type != :WHITESPACE and token.next_token.type != :NEWLINE and token.next_token.type != :SEMIC
         notify :warning, {
                  :message => 'expected space after comma',
                  :line    => token.line,

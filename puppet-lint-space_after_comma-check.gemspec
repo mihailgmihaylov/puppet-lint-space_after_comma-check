@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name        = 'puppet-lint-space_after_comma-check'
-  spec.version     = '1.0.1'
+  spec.version     = '1.0.2'
   spec.homepage    = 'https://github.com/mihailgmihaylov/puppet-lint-space_after_comma-check'
   spec.license     = 'MIT'
   spec.author      = 'Mihail Mihaylov'

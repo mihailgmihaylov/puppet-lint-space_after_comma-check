@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    puppet-lint-space_after_comma-check (1.0.1)
+    puppet-lint-space_after_comma-check (1.0.2)
       puppet-lint (~> 1.0)
 
 GEM
